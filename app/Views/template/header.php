@@ -13,6 +13,9 @@
             width: 25vw;
             float: right;
         }
+        #header{
+            height: 10vh;
+        }
     </style>
 </head>
 <body class='bg-light'>
@@ -24,7 +27,7 @@
             <button type="button" class="btn border-danger text-white col-12 border-3" data-bs-toggle="modal" data-bs-target="#exampleModal">Menu</button>
         </div>
         <div class="col-1 text-danger">
-            <a class="btn border-danger text-white col-12 border-3" href='login'>Login</a>
+            <a class="btn border-danger text-white col-12 border-3" href='login'>Cadastro</a>
         </div>
     </div>
 
@@ -40,6 +43,7 @@
                 <a class='nav' href="home">Home</a>
                 <a class='nav' href="sobre">Quem Somos</a>
                 <a class='nav' href="contato">Contato</a>
+                <a class='nav' href="veiculo">Veículos</a>
             </div>
             </div>
         </div>
