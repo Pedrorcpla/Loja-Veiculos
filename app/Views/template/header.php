@@ -29,6 +29,9 @@
         <div class="col-1 text-danger">
             <a class="btn border-danger text-white col-12 border-3" href='login'>Cadastro</a>
         </div>
+        <div class="col-1 text-danger">
+            <a class="btn border-danger text-white col-12 border-3" href='usuario'>Login</a>
+        </div>
     </div>
 
     <!-- Modal -->
