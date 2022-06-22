@@ -2,6 +2,7 @@
 
 namespace App\Controllers;
 use App\Models\VeiculoModel;
+use App\Models\PessoaModel;
 
 class Home extends BaseController
 {
@@ -118,14 +119,15 @@ class Home extends BaseController
         $data['session'] = \Config\Services::session();
 
         if(empty($data['usuario'])){
-            return redirect("usuario");
+            return redirect('usuario');
         }else{
             $sessionData = [
                 'usuario'   => $nome,
-                'logado'    => TRUE
+                'logado'    => TRUE,
             ];
             $data['session']->set($sessionData);
-            return redirect("home");
+            return redirect('home');
         }
     }
 }
+

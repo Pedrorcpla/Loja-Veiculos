@@ -18,7 +18,7 @@
     align-items: center;
 }
 #corpo{
-    min-height: 90vh;
+    min-height: 100vh;
 }
 .contato input{
     margin: 0.5% 0;
